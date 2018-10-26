@@ -1,0 +1,19 @@
+
+.div {
+	margin-bottom: 50px;
+}
+.dl {
+	padding-left: 0;
+}
+ .questions-article ul > li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.questions-article ul > li::before {
+    content: '-';
+    color: red;
+    margin-right: 5px;
+}
+
+
+

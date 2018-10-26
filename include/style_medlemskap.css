@@ -1,0 +1,33 @@
+h1 {
+    margin-bottom: 5px;
+}
+.membership-article ul {
+    padding-left: 20px;
+}
+.membership-article ul li{
+    padding: 0;
+    margin: 10px 0;
+    text-align: justify;
+}
+.undertext-article > p {
+    text-align: justify;
+    line-height: 1.2em; 
+}
+
+@media screen and (max-width: 1100px) {
+ 
+}
+@media screen and (max-width: 800px) {
+
+    .membership-article ul > li{
+        padding-left: 0
+    }
+    .membership-article h1, .undertext-article h1 {
+        padding-left: 5px;
+        padding-top: 5px;
+        font-size: 1.5rem
+    }
+    .undertext-article > p {
+        line-height: 20px
+    }
+}

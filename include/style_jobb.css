@@ -1,0 +1,54 @@
+
+.login-section, .register-section {
+    color: black
+}
+.jobs-article p{
+    margin: 0;
+}
+.left-div ul {
+    padding-top: 10px;
+}
+
+.jobs-article .left-div .span-div {
+    padding: 30px 20px;
+} 
+.jobs-article .left-div ul a {
+    color: rgb(33, 177, 243)
+}
+.whole-container .left-div ul a:hover {
+    color: rgb(194, 225, 240)
+}
+.jobs-article .right-div ul{
+    padding: 30px 0px 30px 20px;
+    margin: 0;
+}
+.jobs-article .right-div p{
+    padding: 10px 0;
+    text-align: justify;
+}
+.jobs-article .right-div ul li{
+    padding: 0;
+    margin: 10px 0;
+    text-align: justify;
+}
+/* .whole-container .left-div, .whole-container .right-div {
+    width: 100%
+} */
+
+@media screen and (max-width: 1100px) {
+ 
+}
+@media screen and (max-width: 416px) {
+   
+    .jobs-article .left-div, .jobs-article .right-div {
+        width: 100%
+    }
+
+    .left-div h1, .right-div h1 {
+        padding-top: 5px;
+        font-size: 1.5rem
+    }
+    .jobs-article .left-div .span-div {
+        padding: 10px 0;
+    } 
+}

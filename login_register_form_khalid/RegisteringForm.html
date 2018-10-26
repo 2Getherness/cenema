@@ -1,0 +1,48 @@
+ <html lang="en">
+    <head>
+        <title>Logga In på BioBio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial scale="1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="loggainpåbiobio.css">
+    </head>    
+    
+    
+<div class="container">
+<form>
+    <div class="login-form col-md-6 offset-md-3">
+    <div class="container-fluid">
+        <div>
+        <h1 class="title">Registrera här!</h1>
+        <p>Vänligen fyll i detta formulär för att skapa ett konto.</p>
+        <hr>
+      <div class="main">      
+        <label for="email"><b>E-postadress:</b></label>
+        <input type="text" placeholder="Ange e-post" name="email" required>
+        <br>
+        <label for="Telefon"><b>Telefon:</b></label>
+        <input type="text" placeholder="Telefon or Mobil" name="Mobil" required>
+        <br>
+        <label for="psw"><b>Lösenord:</b></label>
+        <input type="password" placeholder="Ange Lösenord" name="psw" required>
+        <br>
+        <label for="psw-repeat"><b>Upprepa Lösenord:</b></label>
+        <input type="password" placeholder="Upprepa Lösenord" name="psw-repeat" required>
+        <hr>
+    </div> 
+    </div>
+        <p id="Villkor">Genom att skapa ett konto godkänner du våra <a href="#"> Villkor och sekretess </a>.</p>
+
+        <div class="clearfix">
+            <button type="submit" class="signupbtn">Registrera nu
+            <button type="reset" class="cancelbtn">Avbryt</button>
+        </button>
+        </div>
+    </div>
+
+    <div class="container signin">
+        <p id="Villkor">Har du redan ett konto? <a href="#">Logga in här!</a></p>
+    </div>
+</form>

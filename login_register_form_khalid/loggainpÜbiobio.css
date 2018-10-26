@@ -1,0 +1,79 @@
+
+h1, p{ text-align: center;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-size: cover;
+}
+.main{
+    text-align: left;
+}
+.login-form{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 1px gray;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    background: white;
+}
+.title{
+    background: blue;
+    padding: 10px;
+    text-align: center;
+    color:black;
+    border-radius: 0px 0px 10px 10px;
+}
+    span.psw {
+        float: right;
+        padding-top: 8px;
+}
+/*@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 50%;
+    }
+}*/
+#Villkor{
+    text-align: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: inline-table;
+    width: 50%;
+   
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn, .reset{
+    background-color: #f44336;
+    color: white;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: auto;
+    cursor: pointer;
+    width: 50%;
+}
+/*@media screen and (max-width: 300px) {
+    .login-form {
+       display: block;
+       float: none;
+    }}*/
